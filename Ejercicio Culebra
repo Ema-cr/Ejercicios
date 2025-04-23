@@ -1,0 +1,17 @@
+Nombre = input("Ingresa tu nombre: ")
+Edad=int (input("Ingresa tu Edad: "))
+print (f"Hola {Nombre} Bienvenid(a),Tu edad es {Edad} Años " )
+
+Comida=str (input("Cual es tu comida favorita? "))
+Color=str (input("Cual es tu color favorito? "))
+print (f"Que buena eleccion, {Comida} y {Color},Te imaginas un(a) {Comida} de color {Color}? ")
+while True:
+    try:
+        Numero = int(input("Ingresa un numero,Porfavor: "))
+        break
+    except ValueError:
+        print("Error!, Debes ingresar un numero entero. ")
+Doble=Numero*2
+Triple=Numero*3
+print("Este es el doble", Doble)
+print("Este es el triple",Triple)
