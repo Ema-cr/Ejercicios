@@ -11,7 +11,7 @@ while True:
         break
     except ValueError:
         print("Error!, Debes ingresar un numero entero. ")
-Doble=Numero*2
-Triple=Numero*3
-print("Este es el doble", Doble)
-print("Este es el triple",Triple)
+Doble = Numero * 2
+print (f"El doble de {Numero} es {Doble} ")
+Triple = Numero * 3
+print (f"El triple de {Numero} es {Triple} ")
