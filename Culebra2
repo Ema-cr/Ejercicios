@@ -1,0 +1,31 @@
+N_Entero=int(input("Ingresa un numero: "))
+N_Flotante=float(input("Ingresa un numero decimal: "))
+V_Cadena=str(input("Ingresa tu nombre: "))
+Edad=int(input("Ingresa tu edad: "))
+Es_Mayor_Edad= Edad >= 18
+if Es_Mayor_Edad:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+
+B_Cadena = "4"
+numero_convert =int (B_Cadena)
+resultado = numero_convert + 20
+print(f"El resultado de la suma es: {resultado}")
+
+Text=("Hola Mundo")
+print(Text)
+Text=10.0
+Text_Cadena= Text*2
+print(f"El resultado de la multiplicacion es: {Text_Cadena}")
+
+String= ("hola a todos los estudiantes del 2025").upper()
+print(String)
+def convertir_a_int(String):
+    try:
+        int(String)
+        return True
+    except ValueError:
+        return False
+resultado= convertir_a_int(String)
+print("se puede convertir a entero?", resultado)
