@@ -8,17 +8,18 @@ La entrada de los nuveos productos en el sistema de inventario,a menudo es reali
 - **La organizacion no siempre es la mas optima, en el proceso actual.
 - **Monitorear el almacenamiento.
 - **Gestion de los pedidos.
-- -
+  
+
 # Propuesta de solucion con IA:
 ## El objetivo de la solución:
 El objetivo de la solución es optimizar la gestión de inventarios mediante el uso de inteligencia artificial para mejorar la precisión de las predicciones de demanda,
 automatizar el reabastecimiento, reducir los errores humanos y maximizar la eficiencia operativa, todo en tiempo real.
 Esto ayuda a reducir costos, evitar desabastecimientos y exceso de stock, y mejorar la experiencia del cliente.
 ### Beneficios esperados:
--**Predicción de Demanda
--**Optimización de Stock y Reabastecimiento Automático
--**Gestión Inteligente del Almacén
--**Análisis Predictivo para Evitar Pérdidas
+- **Predicción de Demanda
+- **Optimización de Stock y Reabastecimiento Automático
+- **Gestión Inteligente del Almacén
+- **Análisis Predictivo para Evitar Pérdidas
 Comparativa entre procesos:
 
 | Aspecto                            | Proceso Tradicional              | Solución con IA            |
