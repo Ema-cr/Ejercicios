@@ -8,18 +8,18 @@ if Es_Mayor_Edad:
 else:
     print("Eres menor de edad")
 
-B_Cadena = "4"
+B_Cadena = input("Ingresa un Numero para sumarlo:  ")
 numero_convert =int (B_Cadena)
-resultado = numero_convert + 20
+resultado = numero_convert + 789
 print(f"El resultado de la suma es: {resultado}")
 
-Text=("Hola Mundo")
+Text= (input("Ingresa un numero decimal para multiplicarlo: "))
 print(Text)
-Text=10.0
-Text_Cadena= Text*2
+text_floating= float(Text)
+Text_Cadena = text_floating*2
 print(f"El resultado de la multiplicacion es: {Text_Cadena}")
 
-String= ("hola a todos los estudiantes del 2025").upper()
+String= input("Ingresa una frase: ").upper()
 print(String)
 def convertir_a_int(String):
     try:
