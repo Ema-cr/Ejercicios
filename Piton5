@@ -1,0 +1,21 @@
+edad=int (input("Ingresa tu Edad: "))
+lic= input("Tienes licencia de conduccion? s/n :").lower()
+if edad>=16 and lic == 's':
+    print ("Si puedes Conducir ")
+else:
+    print ("No puedes conducir ")
+
+experiencia=input("Tienes experiencia laboral? (s/n) :" ).lower()
+titulo=input("Tienes titulo universitario? (s/n) :").lower()
+if experiencia == 's' and titulo == 's':
+    print ("Si puedes aplicar a la oferta laboral")
+else:
+    print ("No puedes aplicar a la oferta")
+
+numero=int (input("Ingresa un numero: "))
+if 0<= numero <= 10:
+    print("El numero no esta en el rango permitido")
+elif 11<= numero <=50:
+    print ("El numero esta en el rango permitido")
+else:
+    print ("El numero esta fuera de los rangos permitidos")
