@@ -1,0 +1,18 @@
+base=int (input("Ingresa la base del rectangulo: "))
+altura=int (input("Ingresa la altura del rectangulo: "))
+area = base*altura
+print(f"La Area del rectangulo es: {area}")
+
+precio= int (input("Ingresa un precio para el producto: "))
+descuento= float (input("Ingresa el descuento para el producto: "))
+valor_descuento= precio*descuento/100
+precio_final= precio-valor_descuento
+print(f"El precio final del producto es: {precio_final}")  
+
+numero_1 = int(input("Ingresa un numero: "))
+numero_2 = int(input("Ingresa otro numero: "))
+residuo = numero_1 % numero_2
+print(f"El residuo de la division de los 2 numeros es: {residuo}")
+
+formula_l= (numero_1+numero_2)*numero_1-residuo
+print(f"El resultado de la suma de todos los numeros es: {formula_l}")
