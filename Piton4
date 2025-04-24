@@ -1,0 +1,22 @@
+numero_1=int (input("Ingresa un numero: "))
+numero_2=int (input("Ingresa otro numero: "))
+if numero_1==numero_2:
+    print("Los numeros son iguales")
+elif numero_1>numero_2:
+    print(f"El numero {numero_1} es mayor al numero {numero_2}")
+else:
+    print(f"El numero {numero_2} es mayor al numero {numero_1}")
+
+Edad=int(input("Ingresa tu edad: "))
+Es_Mayor_Edad= Edad >= 18
+if Es_Mayor_Edad:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+
+texto_1= input("Ingresa un texto: ").strip().upper()
+texto_2= input("Ingresa otro texto: ").strip().upper()
+if texto_1==texto_2:
+    print("Es igual")
+else:
+    print("No es igual")
